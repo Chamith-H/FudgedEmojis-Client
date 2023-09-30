@@ -1,0 +1,11 @@
+{
+    "services": {
+      "web": {
+        "buildCommand": "npm ci && npm run build",
+        "runCommand": "npm start",
+        "env": {
+          "NODE_ENV": "production"
+        }
+      }
+    }
+  }
